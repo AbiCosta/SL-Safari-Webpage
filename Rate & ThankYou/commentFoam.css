@@ -1,0 +1,214 @@
+form {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: rgb(230, 239, 255);
+    border-radius: 40px;
+}
+form h1 {
+    font-family: brush script MT;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 80px;
+    border-radius: 40px;
+}
+body {
+    background-image: url("../Background Images/commentBackground06.jpeg");
+    background-size: 1600px 1000px;
+}
+form label {
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    font-weight: 900;
+    margin-left: 80px;
+}
+form input[type="text"], form input[type="email"] {
+    margin-left: 35px;
+    width: 250px;
+    height: 25px;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-block-start: 70px;
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+}
+
+#email{
+    width: 50%;
+}
+
+#user{
+    width: 50%;
+    margin-left: 7%;
+}
+
+p .firstTextField{
+    margin-top: 50px;
+}
+
+#firstTextArea {
+    width: 540px;
+    height: 50px;
+    margin-left: 35px;
+    font-size: 25px;
+    resize: none;
+}
+#SubmitButton {
+    padding: 700px;
+}
+.stars ul li {
+    list-style-type: none;
+    display: inline;
+    font-size: 30px;
+    margin-inline-start: 50px;
+    color: rgb(233, 193, 32);
+    margin-bottom: 0%;
+}
+.radioButtons #firstRadio {
+    margin-inline-start: 15px;
+}
+.radioButtons #secondRadio {
+    margin-inline-start: -7px;
+}
+.radioButtons #thirdRadio {
+    margin-inline-start: 15px;
+}
+.radioButtons #forthRadio {
+    margin-inline-start: 35px;
+}
+#firstSelection {
+    font-size: 17px;
+    margin-inline-start: 55px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
+.form-controls {
+    display: flex;
+    justify-content: space-between; /* Pushes the elements to the sides */
+    align-items: center; /* Aligns items vertically */
+    padding-bottom: 20px;
+}
+
+.selections {
+    flex: 1; /* Takes remaining space */
+    margin-right: 10px; /* Add some space between the selection and button */
+}
+
+#submit {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+form #p1 {
+    margin-top: 50px;
+}
+form .secondClass {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #261e1e;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    width: 100%; /* Ensure the footer spans the entire width */
+    position:absolute; /* Position the footer at the bottom */
+    bottom: -507px; /* Stick the footer to the bottom of the page */
+    left: 0; /* Ensure the footer starts from the left edge */
+  }
+  
+  footer #logoes a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    display: inline-block;
+  }
+  
+  footer #logoes a:hover {
+    color: yellow;
+  }
+  
+  footer button {
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    width: 120px;
+    height: 50px;
+    margin: 10px;
+    font-size: medium;
+    border-radius: 45px;
+  }
+  
+  footer button a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  footer .footerLists {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  footer .footerLists ul {
+    list-style-type: none;
+    margin: 0 30px;
+  }
+  
+  footer .footerLists ul li {
+    margin-bottom: 5px;
+  }
+  
+  footer .footerLists ul h3 {
+    margin-bottom: 10px;
+  }
+  
+  footer .footerLists ul#thirdUL a {
+    color: #fff;
+  }
+  
+  footer #logoName {
+    margin-top: -120px;
+  }
+  
+  footer .footerLists #firstUL{
+    margin-left: 450px;
+    margin-top: -140px;
+  }
+  
+  footer .footerLists #secondUL{
+    margin-left: 80px;
+    margin-top: -160px;
+  }
+  
+  footer .footerLists #thirdUL{
+    margin-left: 110px;
+    margin-top: -160px;
+    
+  }
+
+.navigationBar a {
+    list-style: none;
+    display: inline;
+    font-size: 30px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navigationBar a:hover {
+    color: rgb(244, 211, 2);
+}

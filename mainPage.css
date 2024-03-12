@@ -1,0 +1,167 @@
+/* Default styles */
+
+/* Body styles */
+body {
+  margin: 0;
+  background-image: url("Background Images/sigiriya.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; /* Ensure the background image covers the entire viewport */
+  font-family: Arial, sans-serif; /* Use a standard font for better cross-device compatibility */
+}
+
+/* Navigation bar styles */
+nav {
+  background-image: url("Background Images/mainPageBackgroundImage.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100px; /* Adjust height as needed */
+  display: flex; /* Align navigation links horizontally */
+  justify-content: center; /* Center navigation links horizontally */
+  align-items: center; /* Center navigation links vertically */
+}
+
+.nevigationBar a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px; /* Adjust font size as needed */
+  margin: 0 15px; /* Add spacing between navigation links */
+}
+
+/* Main content styles */
+.mainContent {
+  padding: 20px; /* Add padding to the main content */
+}
+
+/* Top locations section styles */
+.topLocations {
+  background-color: rgb(253, 246, 213);
+  text-align: center;
+  padding: 20px; /* Add padding to the top locations section */
+}
+
+.topLocations h1 {
+  font-family: 'Brush Script MT', cursive; /* Use specific font-family for consistency */
+}
+
+.topLocations h3 {
+  font-size: 16px; /* Adjust font size as needed */
+  color: #261e1e;
+}
+
+/* Shop section styles */
+.shop {
+  background-image: url("Background Images/mask.png");
+  padding: 20px; /* Add padding to the shop section */
+  text-align: center;
+}
+
+.shop h1 {
+  font-size: 36px; /* Adjust font size as needed */
+}
+
+.shop button {
+  font-size: 16px; /* Adjust font size as needed */
+}
+
+/* Gallery section styles */
+.gallery {
+  background-image: url("Background Images/sigiriya.jpg");
+  padding: 20px; /* Add padding to the gallery section */
+  text-align: center;
+}
+
+.gallery h1, .gallery h2 {
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gallery button {
+  font-size: 16px; /* Adjust font size as needed */
+}
+
+/* Footer styles */
+footer {
+  background-color: #261e1e;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  height: 50%;
+}
+
+footer #logoes a {
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+}
+
+footer button {
+  font-weight: bold;
+  font-size: 16px; /* Adjust font size as needed */
+  border-radius: 45px;
+}
+
+footer button a {
+  text-decoration: none;
+  color: black;
+}
+
+footer .footerLists {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+footer .footerLists ul {
+  list-style-type: none;
+  margin: 0 30px;
+}
+
+footer .footerLists ul li {
+  margin-bottom: 5px;
+}
+
+footer .footerLists ul h3 {
+  margin-bottom: 10px;
+}
+
+footer #logoName {
+  margin-top: -20px; /* Adjust margin as needed */
+}
+
+/* Media queries for responsiveness */
+
+/* Adjust styles for smaller devices */
+@media screen and (max-width: 768px) {
+  nav {
+    height: auto; /* Allow navigation bar to adjust its height based on content */
+  }
+  
+  .nevigationBar a {
+    font-size: 16px; /* Decrease font size for smaller screens */
+    margin: 0 10px; /* Reduce spacing between navigation links */
+  }
+  
+  .mainContent {
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+  
+  .topLocations h3 {
+    font-size: 14px; /* Decrease font size for smaller screens */
+  }
+  
+  .shop h1 {
+    font-size: 24px; /* Decrease font size for smaller screens */
+  }
+  
+  .shop button {
+    font-size: 14px; /* Decrease font size for smaller screens */
+  }
+  
+  .gallery h1, .gallery h2 {
+    font-size: 24px; /* Decrease font size for smaller screens */
+  }
+  
+  .gallery button {
+    font-size: 14px; /* Decrease font size for smaller screens */
+  }
+}
