@@ -1,5 +1,6 @@
-
 **SL Safari Website**
+
+
 Welcome to the SL Safari website! This project is designed to showcase the beauty and attractions of Sri Lanka, offering visitors information about top locations, galleries, and opportunities to shop for unique items.
 
 _Description_
