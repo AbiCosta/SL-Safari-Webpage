@@ -4,9 +4,13 @@
 Welcome to the SL Safari website! This project is designed to showcase the beauty and attractions of Sri Lanka, offering visitors information about top locations, galleries, and opportunities to shop for unique items.
 
 _Description_
+
+
 The SL Safari website is a platform dedicated to promoting tourism in Sri Lanka. It features stunning images, informative articles, and an interactive quiz to engage visitors and inspire them to explore the diverse landscapes and cultural heritage of the country.
 
 _**Features**_
+
+
 Navigation bar for easy access to different sections of the website.
 Sections highlighting top locations, galleries, and shopping opportunities.
 Interactive quiz to test visitors' knowledge about Sri Lanka.
