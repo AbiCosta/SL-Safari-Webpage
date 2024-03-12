@@ -5,11 +5,9 @@ Welcome to the SL Safari website! This project is designed to showcase the beaut
 
 _Description_
 
-
 The SL Safari website is a platform dedicated to promoting tourism in Sri Lanka. It features stunning images, informative articles, and an interactive quiz to engage visitors and inspire them to explore the diverse landscapes and cultural heritage of the country.
 
 _**Features**_
-
 
 Navigation bar for easy access to different sections of the website.
 Sections highlighting top locations, galleries, and shopping opportunities.
@@ -23,6 +21,7 @@ JavaScript for interactive elements and functionality.
 GitHub for version control and hosting.
 
 _**Usage**_
+
 Clone the repository to your local machine.
 Open the index.html file in your web browser to view the website.
 Navigate through the different sections using the navigation bar.
@@ -30,4 +29,5 @@ Explore the top locations, galleries, and shop offerings.
 Test your knowledge with the interactive quiz.
 
 _**Contributor**_
+
 Abilaash Radly Harison- Project Lead & Developer
