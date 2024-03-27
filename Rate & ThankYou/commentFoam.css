@@ -22,6 +22,12 @@ body {
     cursor: default;
 }
 
+nav {
+  background-size: 1650px 900px;
+  background-position: center; 
+  padding-top: 0.5rem;
+}
+
 .navigationBar a {
   list-style: none;
   display: inline;
