@@ -62,10 +62,11 @@ function initApp(){
             <img src="BuyProducts_Images/${value.image}">
             <div class="title">${value.name}</div>
             <div class="price">${value.price.toLocaleString()}</div>
-            <button onclick="addToCard(${key})">Add To Card</button>`;
+            <button class="add-to-cart-btn" onclick="addToCard(${key})">Add To Card</button>`;
         list.appendChild(newDiv);
     })
 }
+
 initApp();
 function addToCard(key){
     if(listofCards[key] == null){
@@ -75,6 +76,7 @@ function addToCard(key){
     }
     reloadCard();
 }
+
 function reloadCard(){
     listofCard.innerHTML = '';
     let count = 0;

@@ -6,14 +6,15 @@
     text-decoration: none;
     color: #ffffff;
     font-family: 'Times New Roman', Times, serif;
-    
-
 }
+
 .nevigationBar a:hover {
     color: rgb(244, 211, 2);
 }
+
 body {
     background-image:url("../Background Images/commentBackground06.jpeg");
+    cursor: default;
 }
 
 .container {
@@ -118,5 +119,8 @@ footer .footerLists #secondUL{
 footer .footerLists #thirdUL{
   margin-left: 110px;
   margin-top: -160px;
-  
+}
+
+footer .footerLists #thirdUL a:hover {
+  color: yellow;
 }

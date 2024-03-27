@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Navigation Bar */
+
 .nevigationBar a{
   list-style: none;
   display: inline;
@@ -14,6 +17,13 @@
 }
 .nevigationBar a:hover {
   color: rgb(244, 211, 2);
+}
+
+nav {
+  background-size: 1650px 900px;
+  background-position: center;
+  height: 55px; 
+  padding-top: 1rem;
 }
 
 body{
@@ -105,11 +115,14 @@ body.green{
   background-image: url(../imeges/greeen1.jpg);
 }
 
+/* Gallery */
+
 .gallery-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 20px;
+  cursor: default;
 }
 
 .gallery-item {
@@ -138,6 +151,7 @@ body.green{
   opacity: 0;
   transition: opacity 0.3s ease;
 }
+
 .gallery-item:hover .description {
   opacity: 1;
 }

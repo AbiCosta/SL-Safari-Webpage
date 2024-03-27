@@ -3,14 +3,17 @@ body {
   margin:0;
   background-image: url("Background Images/sigiriya.jpg");
   background-repeat: no-repeat;
+  cursor: default;
 }
 
+/* Navigation Bar */
 
 nav {
   background-image: url("Background Images/mainPageBackgroundImage.jpg");
   background-size: 1650px 900px;
   background-position: center;
   height: 500px; 
+  padding-top: 1rem;
 }
 
 .nevigationBar a{
@@ -190,7 +193,7 @@ nav {
   font-weight: bold;
   color: #000000;
   margin-left: 700px;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .mainContent  h1{
@@ -308,4 +311,8 @@ footer .footerLists #secondUL{
 footer .footerLists #thirdUL{
   margin-left: 10px;
   margin-top: -160px;
+}
+
+footer .footerLists #thirdUL a:hover {
+  color: yellow;
 }
