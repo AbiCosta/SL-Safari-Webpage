@@ -1,3 +1,9 @@
+nav {
+  background-size: 1650px 900px;
+  background-position: center; 
+  padding-top: 0.7rem;
+}
+
 .nevigationBar a{
     list-style: none;
     display: inline;
